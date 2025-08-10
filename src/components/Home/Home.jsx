@@ -5,9 +5,9 @@ function Home() {
   const [modalJob, setModalJob] = useState(null);
 
   const jobs = [
-    { id: 1, title: "Frontend Engineer", location: "Bengaluru, India", type: "Full-time", exp: "2+ years", desc: "Build delightful UI experiences using React." },
+    { id: 1, title: "Frontend Engineer", location: "Wakanda", type: "Full-time", exp: "2+ years", desc: "Build delightful UI experiences using React." },
     { id: 2, title: "Backend Engineer (Java)", location: "Remote", type: "Full-time", exp: "3+ years", desc: "Design scalable microservices and APIs." },
-    { id: 3, title: "Product Designer", location: "Mumbai, India", type: "Contract", exp: "4+ years", desc: "Lead design from discovery to delivery." }
+    { id: 3, title: "Product Designer", location: "Villagesville", type: "Contract", exp: "4+ years", desc: "Lead design from discovery to delivery." }
   ];
 
   const stories = [
